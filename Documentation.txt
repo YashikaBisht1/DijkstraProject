@@ -1,0 +1,32 @@
+ Here is the link of the project taken in consideration:
+https://github.com/YashikaBisht1/OssLab1b.git
+
+
+### Overview
+Dijkstra-C provides an implementation of Dijkstra's shortest path algorithm in C. Here are the key functions related to the algorithm:
+
+1. **`minDistance(int dist[], int visited[])`**:
+   - Purpose: Finds the vertex with the minimum distance value.
+   - Parameters:
+     - `dist[]`: An array storing the shortest distances from the source.
+     - `visited[]`: An array marking visited vertices.
+   - Returns: The index of the vertex with the minimum distance.
+
+2. **`printPath(int parent[], int j)`**:
+   - Purpose: Recursively prints the shortest path from the source to a target vertex.
+   - Parameters:
+     - `parent[]`: An array storing parent vertices for each vertex.
+     - `j`: The target vertex.
+   - Returns: Nothing (void function).
+
+3. **`dijkstra(int graph[V][V], int src)`**:
+   - Purpose: Performs Dijkstra's algorithm to find the shortest paths.
+   - Parameters:
+     - `graph[V][V]`: The adjacency matrix representing the graph.
+     - `src`: The source vertex.
+   - Details:
+     - Initializes distance values and parent vertices.
+     - Iterates through vertices to find the shortest paths.
+     - Updates distances and parent vertices as needed.
+     - Prints the results (distances and paths).
+
